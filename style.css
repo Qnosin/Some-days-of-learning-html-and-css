@@ -1,0 +1,91 @@
+html{
+    overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+#container{
+    position: relative;
+    height: 1080px;
+    width: 1920px;
+}
+#land{
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 150px;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s ease-in;
+    font-size: 50px;
+}
+#land:hover{
+    color: #cfcfcf;
+    cursor: pointer;
+}
+#x1{
+    position: absolute;
+    z-index: 2;
+    top: 260px;
+    right: 600px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+#x2{
+    position: absolute;
+    z-index: 2;
+    top: 260px;
+    right: 450px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+
+}
+#x3{
+    position: absolute;
+    z-index: 2;
+    top: 260px;
+    right: 300px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+#x4{position: absolute;
+    z-index: 2;
+    top: 260px;
+    right: 100px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+
+}
+#x1:hover{
+    text-shadow: none;
+    color: #383737;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20%;
+}
+#x2:hover{
+    text-shadow: none;
+    color: #383737;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20%;
+}
+#x3:hover{
+    text-shadow: none;
+    color: #383737;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20%;
+}
+#x4:hover{
+    text-shadow: none;
+    color: #383737;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20%;
+}
